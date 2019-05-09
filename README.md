@@ -71,8 +71,6 @@ Here you can find description of all sensors are used in project
   <summary>details</summary>
   </br>
 
-  #### Wireing schema
-
   #### Arduino wireing
   | MicroSD Card Adapter | Adruino UNO Pin |
   |----------------------|-----------------|
@@ -87,6 +85,26 @@ Here you can find description of all sensors are used in project
 
   #### Arduino code
   [the necessary code is here](https://github.com/WiciuTyraka/On-board-computer/blob/master/Sensors/GPS/gps_basic.cpp)
+
+  #### Datasheet
+[link](https://www.openimpulse.com/blog/wp-content/uploads/wpsc/downloadables/GY-NEO6MV2-GPS-Module-Datasheet.pdf)
+  </details>
+
+  ### BMP280
+  ---
+
+  <details>
+  <summary>details</summary>
+  </br>
+
+  [bmp280](https://nettigo.pl/products/modul-10-dof-mpu9250-bmp280) is a barometer which is used to mesure flight high. 
+
+  #### I2C Sensor library
+  You can download the necessary library here:
+ [download]https://github.com/WiciuTyraka/On-board-computer/tree/master/Sensors/BMP_280/I2C-Sensor-Lib_iLib)
+
+  #### Arduino code
+  [the necessary code is here](https://github.com/WiciuTyraka/On-board-computer/blob/master/Sensors/BMP_280/bmp_280.cpp)
 
   #### Datasheet
 [link](https://www.openimpulse.com/blog/wp-content/uploads/wpsc/downloadables/GY-NEO6MV2-GPS-Module-Datasheet.pdf)
