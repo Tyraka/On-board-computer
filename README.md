@@ -92,20 +92,41 @@ Here you can find description of all sensors are used in project
 
   ### BMP280
   ---
-
+  [bmp280](https://nettigo.pl/products/modul-10-dof-mpu9250-bmp280) is a barometer which is used to mesure flight high.
   <details>
   <summary>details</summary>
   </br>
 
-  [bmp280](https://nettigo.pl/products/modul-10-dof-mpu9250-bmp280) is a barometer which is used to mesure flight high. 
-
   #### I2C Sensor library
   You can download the necessary library here:
- [download]https://github.com/WiciuTyraka/On-board-computer/tree/master/Sensors/BMP_280/I2C-Sensor-Lib_iLib)
+ [download](https://github.com/WiciuTyraka/On-board-computer/tree/master/Sensors/BMP_280/I2C-Sensor-Lib_iLib)
 
   #### Arduino code
   [the necessary code is here](https://github.com/WiciuTyraka/On-board-computer/blob/master/Sensors/BMP_280/bmp_280.cpp)
 
   #### Datasheet
-[link](https://www.openimpulse.com/blog/wp-content/uploads/wpsc/downloadables/GY-NEO6MV2-GPS-Module-Datasheet.pdf)
+[link](https://github.com/WiciuTyraka/On-board-computer/blob/master/Sensors/BMP_280/BST-BMP280-DS001-11.pdf)
   </details>
+
+  ### Pin map
+---
+This table contains information abaout all pins to witch are connected device
+
+| Pin number |Device     |
+|------------|---------- |
+| 2          |GPS TX     |
+| 3          |GPS RX     |
+| 5          |PYRO       |
+| 10         |SD card CS |
+| 11         |MOSI       |
+| 12         |MISO       |
+| 13         |CLK        |
+| A4         |SDA        |
+| A5         |SCL        |
+
+
+
+## Code for Arduino
+
+This version of code not include a gyroscope.
+- here you can find a [code](https://github.com/WiciuTyraka/On-board-computer/blob/master/Arduino_code/main.cpp)
